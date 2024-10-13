@@ -1,0 +1,48 @@
+#profile{
+    background-image: url('https://img.freepik.com/premium-photo/child-adult-holding-money-jar-donation-saving-concept_49149-1117.jpg');
+    /* background-image: url(https://img.freepik.com/free-vector/gradient-wireframe-background_23-2148993324.jpg); */
+    /* background-color: rgb(33, 33, 33); */
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh; /* Set the body's height to 100% of the viewport height */
+    display: flex;
+    align-items: center;
+}
+.overlay {
+    padding-top: 2%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+ /* Adjust the opacity by changing the last value (0.5 is 50% opacity) */
+  }
+#details
+{
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    background-color: rgb(240, 248, 255,0.5);
+    width: 30%;
+    left: 35%;
+    border: solid 1px black;
+    border-radius: 10%;
+    font-size: xx-large;
+    top:20%
+}
+h1{
+    text-align: center;
+}
+#buttons
+{
+    position: absolute;
+    left: 41%;
+    top: 70%;
+}

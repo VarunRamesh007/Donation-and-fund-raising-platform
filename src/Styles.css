@@ -1,0 +1,136 @@
+#signin {
+    background-image: url('https://img.freepik.com/premium-photo/child-adult-holding-money-jar-donation-saving-concept_49149-1117.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+    height: 100vh; /* Set the body's height to 100% of the viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Center the content both horizontally and vertically */
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+  }
+  .overlay {
+    padding-top: 2%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+  }
+h1
+{
+    color:rgb(0, 0, 0);
+    font-size: 48px;
+    text-align: center;
+}
+label
+{
+    padding-top: 2%;
+    text-align: left;
+}
+input[type="text"], input[type="password"] {
+    width: 300px; 
+    height: 30px; 
+    font-size: 16px; 
+    margin-left: 1.5%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid;
+    border-color: rgb(0, 0, 0);
+    color: aliceblue;
+  }
+button
+{
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(0, 0, 0);
+    border: 1PX solid ;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-top: 2%;
+}
+#loginbutton
+{
+    margin-left: 1%;
+}
+#signbutton
+{
+    width: 10%;
+    font-size: 25px;
+}
+#sdetails
+{
+    position: absolute;
+    width: 70%;
+    top: 20%;
+    left: 14.5%;
+}
+#logindetails
+{
+    position: absolute;
+    top: 23%;
+    left: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+html, body { height: 80%; }
+body {
+  background:radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%);
+  overflow: hidden;
+}
+
+.ocean { 
+  height: 2%;
+  width:100%;
+  position:absolute;
+  bottom:0;
+  left:0;
+  background: #47494a;
+}
+
+.wave {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x; 
+  position: absolute;
+  top: -198px;
+  width: 6400px;
+  height: 150px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+  transform: translate3d(0, 0, 0);
+}
+
+.wave:nth-of-type(2) {
+  top: -175px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+  opacity: 1;
+}
+
+@keyframes wave {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -1600px;
+  }
+}
+
+@keyframes swell {
+  0%, 100% {
+    transform: translate3d(0,-25px,0);
+  }
+  50% {
+    transform: translate3d(0,5px,0);
+  }
+}
